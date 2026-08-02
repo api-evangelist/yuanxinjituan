@@ -1,7 +1,28 @@
 aid: yuanxinjituan
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yuanxinjituan.png
 name: yuanxinjituan
-description: yuanxinjituan is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Yuanxinjituan (Beijing Yuanxin Technology Group Co., Ltd. / 圆心科技集团) is a Chinese healthcare-technology
+  company founded in 2015 and headquartered in Beijing, dedicated to delivering value across the full
+  patient care cycle. It operates an integrated online-and-offline platform spanning three core scenarios
+  — medical consultation, medication, and payment — connecting doctors, patients, pharmaceutical companies,
+  and insurers. Its businesses include the Miaoshou (妙手) internet hospital, hospital-side and DTP pharmacies
+  (圆心药房), a prescription-sharing platform, pharmaceutical distribution, and the Yuanxin health-insurance
+  arm (圆心惠保). Backed by Tencent, Sequoia China, and Qiming Venture Partners, Yuanxin is one of China's
+  largest full-chain service providers for the commercialization of innovative drugs and has pursued a
+  Hong Kong Stock Exchange main-board listing. The company presents a consumer/enterprise healthcare surface;
+  no public developer API, open platform, or documentation was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/yuanxinjituan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Health Technology
+- Digital Health
+- Pharmacy
+- Health Insurance
+- Internet Hospital
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/yuanxinjituan-domain-security.yml
 - type: Website
   url: https://yuanxinjituan.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
